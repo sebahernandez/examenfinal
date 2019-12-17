@@ -451,6 +451,11 @@ a.page-link {
     background: none;
     color: #d11e11; }
 
+/* Fomularios */
+.form-control {
+  border: none;
+  border-radius: 0px; }
+
 /* Footer */
 footer {
   background: #000;

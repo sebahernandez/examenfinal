@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="css/jssocials-theme-flat.css">
   <link rel="stylesheet" href="css/evil-icons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/video-js.css">
   <link rel="stylesheet" href="css/style.css">
 
   <title>Chopperon - Revista para los amantes de las motocicletas</title>
@@ -24,8 +23,8 @@
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src="img/chopperon.png" class="logo" alt="logo"
             id="chopperon"></a>
-        <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
           <i data-icon="ei-navicon" data-size="m" id="icon" class="icon"></i>
         </a>
 
@@ -74,14 +73,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <video controls data-setup="{}"
-            class="chopperon-video video-js vjs-16-9 vjs-big-play-centered vjs-layout-small" id="intro-video">
-            <source src="video/motos.mp4" type="video/mp4">
-          </video>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/egMWlD3fLJ8"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6 col-sm-12 p-3">
-          <h2>Creedence la banda sonora choppers lovers.</h2>
-          <p>
+          <h2>"Born To Be Wild" La canción de los Choppers Lovers.</h2>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Eos saepe natus dicta dolor quidem sit, placeat veniam libero
             mollitia earum error explicabo deserunt praesentium odit iusto
@@ -316,17 +313,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/evil-icons.min.js"></script>
-  <script src="js/video.js"></script>
-  <script src="js/videojs-ie8.min.js"></script>
   <script src="js/jssocials.min.js"></script>
   <script src="js/main.js"></script>
 
-  <script>
-    var reproductor = videojs('intro-video', {
-      fluid: true,
-      preload: 'auto',
-    });
-  </script>
 </body>
 
 </html>
