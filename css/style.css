@@ -92,6 +92,9 @@ li.nav-item.active a {
   display: flex; }
 
 /* Revista */
+.hero-image a:visited {
+  color: #fff !important; }
+
 .hero-image {
   width: 100%;
   height: 100vh;
@@ -278,7 +281,9 @@ article {
 .content-post a {
   color: #fff; }
 
-span.date, span.comment, span.time {
+span.date,
+span.comment,
+span.time {
   color: #a5a5a5;
   font-size: 0.9rem; }
 
@@ -294,7 +299,7 @@ span.date, span.comment, span.time {
   .blog h3 {
     text-align: center;
     font-size: 3rem;
-    font-family: sans,serif;
+    font-family: sans, serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -447,6 +452,11 @@ footer {
   list-style: none; }
   .links-footer ul a {
     color: #fff; }
+
+iframe {
+  width: 100%;
+  height: 315px;
+  border: 0px; }
 
 /* INICIO DE MEDIA QUERIES */
 @media (max-width: 575.98px) {
