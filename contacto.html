@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jssocials.css">
+  <link rel="stylesheet" href="css/jssocials-theme-flat.css">
+  <link rel="stylesheet" href="css/evil-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/video-js.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Chopperon</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/chopperon.png" class="logo" alt="logo"
+            id="chopperon"></a>
+        <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <i data-icon="ei-navicon" data-size="m" id="icon" class="icon"></i>
+        </a>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">INICIO <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NOTICIAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">REPORTAJES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FORO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">VIDEOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!--Header-->
+
+
+  <!-- Pagina Formulario -->
+  <section class="blog gutters">
+    <div class="container">
+      <h2 class="display-4">Contacto</h2>
+      <div class="row">
+        <!-- Formulario de contacto-->
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-8 col-lg-offset-2">
+              <h5 class="my-4">Visita nuestras oficinas de Chopperon en Concepción 67737 of 3, España</h5>
+              <div class="map-ubicacion">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12146.524171016985!2d-3.658199307817496!3d40.439168069798896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f3976edd71d%3A0x285839fbfd750b35!2sConcepci%C3%B3n%2C%2028027%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2scl!4v1576612070187!5m2!1ses-419!2scl"
+                  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+              <h6 class="mt-5 display-4">Fomulario de contacto</h6>
+              <p>Completa correctamente los datos en el formulario y te contactaremos a la brevedad.</p>
+              <form id="contact-form" method="post" action="" role="form">
+
+                <div class="messages"></div>
+
+                <div class="controls">
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_name">Nombre *</label>
+                        <input id="form_name" type="text" name="name" class="form-control"
+                          placeholder="Ingresa su nombre" required="required"
+                          data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_lastname">Apellido *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control"
+                          placeholder="Ingrese su apellido *" required="required"
+                          data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control"
+                          placeholder="Ingrese su correo electrónico *" required="required"
+                          data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_phone">Teléfono</label>
+                        <input id="form_phone" type="tel" name="phone" class="form-control"
+                          placeholder="Ingrese su numero teléfonico">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="form_message">Mensaje *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Escriba su mensaje"
+                          rows="4" required data-error="Escriba su mensaje a enviar"></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <input type="submit" class="btn btn-outline-danger my-3" value="Enviar Formulario">
+                    </div>
+                  </div>
+
+                </div>
+
+              </form>
+            </div>
+            <!-- Formulario Contacto -->
+
+            <!-- Sidebar -->
+            <aside class="col-md-4 col-sm-12 col-xs-12">
+              <h4>Buscar un artículo:</h4>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Buscar...">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+              <!-- Categorias-->
+              <h4>Categorias</h4>
+              <div class="categorias">
+                <ul class="list-categorias">
+                  <li><a href="#">ACTIVIDADES</a></li>
+                  <li><a href="#">ACTUALIDAD</a></li>
+                  <li><a href="#">ENTREVISTAS</a></li>
+                  <li><a href="#">EVENTOS</a></li>
+                  <li><a href="#">EQUIPAMIENTO</a></li>
+                  <li><a href="#">CALENDARIO</a></li>
+                  <li><a href="#">VIAJES</a></li>
+                  <li><a href="#">HISTORIAS</a></li>
+                </ul>
+              </div>
+              <!-- Tags-->
+              <h4>Tags</h4>
+              <div class="tags">
+                <ul class="list-tags">
+                  <li><a href="#">Clasicas</a></li>
+                  <li><a href="#">Chopper</a></li>
+                  <li><a href="#">Tips</a></li>
+                  <li><a href="#">Accesorios</a></li>
+                  <li><a href="#">Seguridad</a></li>
+                </ul>
+              </div>
+
+              <!-- Enlaces-->
+              <h4>Enlaces</h4>
+              <div class="enlaces">
+                <ul class="list-enlaces">
+                  <li><a href="#">HARLEYDAVIDSON.COM</a></li>
+                  <li><a href="#">MUNDOMOTO.COM</a></li>
+                  <li><a href="#">TODOMOTOS.ES</a></li>
+                  <li><a href="#">TIENDAMOTOR.NET</a></li>
+                </ul>
+              </div>
+
+            </aside>
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+  </section>
+  <!-- Newsletter-->
+  <section class="newsletter d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+          <div class="content">
+            <h3 class="text-center">PARTICÍPA Y GANA ACCESORIOS PARA TUS VIAJES..</h3>
+            <h4>Suscríbete y recibe toda la información de como concursar.</h4>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="INGRESA TU E-MAIL">
+              <span class="input-group-btn">
+                <button class="btn" type="submit">Suscríbete</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-12 d-flex align-items-center justify-content-center">
+          <div class="logo-footer">
+            <img src="img/chopperon.png" alt="logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12 d-flex align-items-center justify-content-center">
+          <div class="links-footer">
+            <ul>
+              <li><a href="#">Noticias</a></li>
+              <li><a href="#">Reportajes</a></li>
+              <li><a href="#">Foro</a></li>
+              <li><a href="#">Videos</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12 d-flex align-items-center justify-content-center">
+          <div class="links-footer">
+            <ul>
+              <li><a href="#">Harley España</a></li>
+              <li><a href="#">Novedades</a></li>
+              <li><a href="#">¿Comó Publicar</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-md-3 col-sm-12 d-flex align-items-center justify-content-center">
+          <div class="logo-partner">
+            <img src="img/partners.png" alt="partners" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-12 d-flex align-items-center justify-content-center">
+          <div class="social-media">
+            <div data-icon="ei-sc-facebook" data-size="m"></div>
+            <div data-icon="ei-sc-twitter" data-size="m"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jssocials.js"></script>
+  <script src="js/evil-icons.min.js"></script>
+  <script src="js/video.js"></script>
+  <script src="js/videojs-ie8.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

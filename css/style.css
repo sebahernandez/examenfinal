@@ -40,6 +40,11 @@ h4 {
   .breadcrumb a {
     color: #d11e11; }
 
+/* Form control */
+.form-control {
+  border: 0; }
+
+/* Display none */
 .none {
   display: none; }
 
@@ -92,6 +97,9 @@ li.nav-item.active a {
   display: flex; }
 
 /* Revista */
+.hero-image a {
+  color: #fff; }
+
 .hero-image a:visited {
   color: #fff !important; }
 
